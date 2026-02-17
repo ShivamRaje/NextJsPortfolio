@@ -1,25 +1,26 @@
 export default function Projects() {
   const projects = [
     {
+      title: "Student Progress Portal",
+      description: "Tracks student performance, attendance, and grades with role-based access for students and faculty.",
+      link: "#",
+    },
+    {
+      title: "Worker Data Maintaining Website",
+      description: "Manages employee records, salaries, attendance, and department details with secure CRUD operations.",
+      link: "#",
+    },
+    {
       title: "Flight Management System",
-      description: "A Java + MySQL project to manage flights, bookings, and users.",
+      description: "Handles flight booking, scheduling, passenger details, and fare management using Java, JDBC, and MySQL.",
       link: "#",
     },
     {
-      title: "Rule Engine Application",
-      description: "Determines user eligibility using AST and attributes like age, income, department.",
+      title: "Client Management Application",
+      description: "Organizes client information, project details, communication history, and status tracking in a centralized system.",
       link: "#",
     },
-    {
-      title: "Seat Booking System",
-      description: "Interactive seat booking UI with persistent state using React + backend.",
-      link: "#",
-    },
-    {
-      title: "Portfolio Website",
-      description: "The website you are viewing right now, built with Next.js and Tailwind CSS.",
-      link: "#",
-    },
+
   ];
 
   return (
