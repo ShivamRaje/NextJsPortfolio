@@ -13,7 +13,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="w-full bg-blue-900 text-white px-8 py-4 flex justify-between items-center sticky top-0 z-50 shadow-lg">
+    <nav className="navbar w-full text-white px-8 py-4 flex justify-between items-center sticky top-0 z-50 shadow-lg">
       <h1 className="text-xl font-bold">Shivam</h1>
 
       <div className="space-x-6">
