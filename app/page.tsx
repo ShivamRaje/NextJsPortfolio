@@ -1,8 +1,12 @@
-
 export default function Home() {
   return (
-    <main className="min-h-screen  flex items-center justify-center ">
+    <main className="min-h-screen flex items-center justify-center">
       <div className="text-center">
+        <img
+          src="/profile.jpg"
+          alt="Shivam Raje"
+          className="mx-auto mb-4 rounded-full w-32 h-32 object-cover"
+        />
         <h1 className="text-3xl font-bold text-gray-800">
           Hi! I’m Shivam Raje 👋
         </h1>
